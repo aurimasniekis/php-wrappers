@@ -1,0 +1,25 @@
+{
+    "name": "gcds/php-wrappers",
+    "type": "wrappers",
+    "description": "PHP Function Wrappers for unit testing",
+    "keywords": ["wrapper", "wrappers", "php", "php-wrappers"],
+    "homepage": "https://github.com/gcds/php-wrappers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aurimas Niekis",
+            "email": "aurimas@niekis.lt"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": { "PHP\\Wrappers\\": "src" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
